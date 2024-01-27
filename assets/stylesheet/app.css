@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Vampiro+One&display=swap");
 
 body {
-  background: linear-gradient(#9a08dd 0%, #dd4c4f 40%, #7420d3 100%);
+  background: linear-gradient(#DC143C 0%, #dd4c4f 40%, #F0F8FF 100%);
   font-family: "Poppins", sans-serif;
 }
 
@@ -173,65 +173,6 @@ body {
   text-decoration: none;
   font-size: 40px;
 }
-.article-img-holder-secondRow {
-  width: 100%;
-  height: 100%;
-  transition: all 0.7s;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  text-decoration: none;
-  font-size: 35px;
-}
-.tshirt {
-  background: url("../img/tshirt.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.outer {
-  background: url("../img/outer.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.shirt {
-  background: url("../img/shirt.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.pants {
-  background: url("../img/pants.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.accessories {
-  background: url("../img/accessories.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.dress {
-  background: url("../img/dress.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.kerudung {
-  background: url("../img/kerudung.jpeg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.rok {
-  background: url("../img/rok.jpeg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 
 .article-img-holder-thirdRow {
   width: 100%;
@@ -283,4 +224,28 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: -90px;
+}
+.partner-list {
+    width: 75%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.kartu-partner {
+    width: 10%;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.kartu-partner img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; 
+    display: inline-block; 
+}
+
+.col-sm-4 {
+    width: 100%;
 }
